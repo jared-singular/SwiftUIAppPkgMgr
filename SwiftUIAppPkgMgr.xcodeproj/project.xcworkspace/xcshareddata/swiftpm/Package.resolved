@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "singular-ios-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/singular-labs/Singular-iOS-SDK",
+      "state" : {
+        "revision" : "d8f8a702fca4cd9ce496a7c8a309400d83308daf",
+        "version" : "12.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}

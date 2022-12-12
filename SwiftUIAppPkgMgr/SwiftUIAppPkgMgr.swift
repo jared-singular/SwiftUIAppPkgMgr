@@ -26,7 +26,10 @@ class AppDelegate: NSObject, UIApplicationDelegate {
         // Override point for customization after application launch.
         print(Date(),"-- didFinishLaunchingWithOptions()")
         // Get Identifier for Vendor (IDFV)
+        let idfv = UIDevice().identifierForVendor!.uuidString
         print(Date(), "-- IDFV:",UIDevice().identifierForVendor!.uuidString)
+        UserDefaults.standard.set(idfv, forKey: "idfv")
+        
         
         // Add 3rd Party Code Here:
         if let config = self.getConfig() {
